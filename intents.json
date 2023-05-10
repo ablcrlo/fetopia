@@ -1,0 +1,1503 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi!",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Hey",
+        "good day",
+        "good pm po",
+        "hello po",
+        "good morning po",
+        "greetings",
+        "good eve",
+        "hellow po",
+        "Is anyone available to chat?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there, how can I help?",
+        "Hi, yes?  :)",
+        "Andito po ako, hello!",
+        "Ano po maipag lilikod namin?",
+        "Magandang araw po, hello!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "gmail email pwede?",
+        "yahoo email pwede?",
+        "okay lang po ba gmail email?",
+        "okay lang po ba na yahoo? email",
+        "pwede po ba gmail email?",
+        "school mail pwede po?",
+        "pede po office email?",
+        "pede po office mail?",
+        "gmail e-mail pwede?",
+        "yahoo e-mail pwede?",
+        "okay lang po ba gmail e-mail?",
+        "okay lang po ba na yahoo? e-mail",
+        "pwede po ba gmail e-mail?",
+        "school mail pwede po?",
+        "pede po office e-mail?",
+        "pede po office mail?"
+      ],
+      "responses": [
+        "Yes, any e-mail po na meron kayo ay pwedeng gamitin."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "Unknown"
+      ],
+      "responses": [
+        "Can you please repeat that? Ano po ulit yun?",
+        "Ano po ulit yun?",
+        "Di ko po gets, pa-ulit po?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "how_much",
+      "patterns": [
+        "how much po?",
+        "bale po p50 00",
+        "by the way po 50 pesos pa rin po ba",
+        "for 50 lahat n po",
+        "50 pesos for all? where do I send the payment",
+        "50php po ba yan lahat",
+        "how much po ang microsoft 365",
+        "50 each po",
+        "how much po autocad",
+        "how much po per apps",
+        "how much po yung office 2021",
+        "how much po ang photoshop",
+        "how much po babayran p",
+        "how much po yung sa 2021",
+        "for 50 pesos po",
+        "how much po lahat ng babaayaran",
+        "hi sir i just wanna ask first is lahat po ba to for 50 pesos",
+        "for 50 pesos po lahat ng app makukuha",
+        "ah ok po bale 50 pesos po ang bbyaran after ko ma install",
+        "hello how much po for adobe photoshop",
+        "kuha po ako how much po",
+        "All in na lahat sir sa 50",
+        "all for 50php",
+        "50 gcash right po maam",
+        "50 pesos lang po yan lahat",
+        "50 lang po talaga",
+        "50php po ba yan lahat",
+        "50pesos all in?",
+        "50 no",
+        "50 po per month yan?",
+        "hm microsoft word",
+        "hm po?",
+        "hm ms powerpoint",
+        "hm adobe",
+        "magkano po?",
+        "bali magkano po?",
+        "hm nmn po",
+        "how much po yung price?",
+        "same price pa rin po ba?",
+        "price list",
+        "hm for autocad",
+        "hm if adobe illustrator lang kukunin",
+        "price po?",
+        "How much po if all adobe apps lang?",
+        "send me the price first",
+        "ask ko lang po kung para sa lahat na po ba yan",
+        "how much to pay?",
+        "magkano po ang pay ko sa inyo?",
+        "50 per installer po?",
+        "50pesos all in",
+        "50 for all na po ba yan?",
+        "all for 50?",
+        "50 po ba yan kada isa?",
+        "50 php right",
+        "50php each",
+        "50 po right",
+        "hm po yung sa fb post nio",
+        "50 pesos right",
+        "how much",
+        "how much 2019",
+        "how much adobe premier pro and master collection",
+        "50 pesos only dba?",
+        "how much po",
+        "how much adobe illustrator",
+        "hm ps tsaka pi",
+        "50 pesos right",
+        "how much po ang adobe photoshop",
+        "how much po 50 pesos po",
+        "hm po pag yan",
+        "50 po",
+        "how much po 3ds max",
+        "hm po sa microsoft softwares",
+        "hm po microsoft office",
+        "hm po microsoft 2016",
+        "hm po microsoft office 2021",
+        "50 po ba yan lahat?",
+        "50 po per month yan",
+        "50 po ba lahat",
+        "hm po ba",
+        "for lifetime na po ba",
+        "hm po",
+        "Bundle na po yong 50 pesos or 50 pesos each po?",
+        "50 pesos po diba",
+        "50 pesos po ba talaga yung price",
+        "hm office 2021",
+        "50 pesos po lahat yan",
+        "50 pesos po all types of softwares",
+        "50 pesos per application po",
+        "good eve ok n so far hope di eto mag expire na trial version mawawalan n nman aq ng corel",
+        "ask ko lang po muna if life time acess po",
+        "50 pesos no hidden charge",
+        "Bundle na po yong 50 pesos",
+        "ask ko lang po kung lifetime ho ba itong license",
+        "50 pesos each po?",
+        "Bale po P50.00",
+        "PHP50 po?",
+        "PHP50.00 po?"
+      ],
+      "responses": [
+        "50 pesos po sa lahat ng software po all in na. Kahit isang piraso or lahat po yung kukunin, P50 pa din po. lahat po activated and life time access na po tayo."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "YES",
+      "patterns": [
+        "YES!",
+        "YES",
+        "yes",
+        "YES.?",
+        "yes.",
+        "yesss!"
+      ],
+      "responses": [
+        "Review the files first at https://drive.google.com/drive/u/3/folders/1CE2mQANjZxEBgo3POxqpYjT_nPDdnZcM. If you're satisfied, decide whether to pay or not. To pay via Gcash, use these details: 09761377354 or 09774029594 (Abel Carlo J.). Please send a screenshot of your payment as proof of payment.",
+		"Before paying, please check the files at https://drive.google.com/drive/u/3/folders/1CE2mQANjZxEBgo3POxqpYjT_nPDdnZcM. If you're happy with them, you may pay 09761377354 or 09774029594 (Abel Carlo J.) via Gcash. Don't forget to send us a screenshot of your payment as proof.",
+		"View the files first at https://drive.google.com/drive/u/3/folders/1CE2mQANjZxEBgo3POxqpYjT_nPDdnZcM. If you're satisfied, it's up to you whether you want to pay or not. To pay via Gcash, use these details: 09761377354 or 09774029594 (Abel Carlo J.). Please send us a screenshot of your payment as proof."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "password",
+      "patterns": [
+        "ano po ung password",
+        "enter password daw po",
+        "ano po ung sa password",
+        "i need the password po",
+        "ano po yung sa password",
+        "ano po yung password?",
+        "ano po yung password ayaw mo mag open",
+        "password po",
+        "may password po sir.",
+        "ano po ang password",
+        "pa turo po sa password"
+      ],
+      "responses": [
+        "123 po ang password sa lahat ng files."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "instructions",
+      "patterns": [
+        "May instruction po duon how to install?",
+        "How to install?",
+        "easily install po ba yan",
+        "May tutorial po ba?",
+        "Paturo po mag install",
+        "ako po ba mag iinstall?",
+        "download ko lang po then install?",
+        "ask ko lang po bakit ayaw na magamit ulit",
+        "ako na bahala mag install?",
+        "may installation guide po?",
+        "may guide po ba ito?"
+      ],
+      "responses": [
+        "May kasama po yang tutorial video on how to install. Paki-panood na lang po, also nag reremote install din po ako. Kung mag avail kayo remote installation sabihin nyo lang po."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "salamat",
+        "ay wow thank you po",
+        "salamat po",
+        "thx po",
+        "thank you po",
+        "ah okay po thank youuu",
+        "I will recommend you",
+        "ahh okay po",
+        "amazing",
+        "Okay po maraming salamat po",
+        "recommend ko po kayo"
+      ],
+      "responses": [
+        "Thank you din po!",
+        "Thank you po!",
+        "Sa uulitin po, thank you din po!",
+        "You're welcome po!",
+        "Thank you!",
+        "salamat po!",
+        "Maraming salamat po!",
+        "Maraming salamat po, thank you din po!",
+        "Welcome po!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sige",
+      "patterns": [
+        "ok po",
+        "okay po",
+        "chat nalang ako kapag may mga problem",
+        "okay",
+        "check st dend ko po after ko umuwi",
+        "check ko lang muna ah wait lang",
+        "cge",
+        "check ko maya pag uwian salamat chat kita maya",
+        "check ko lang po",
+        "chat lang po ako sainyo kapag na expired na",
+        "sige"
+      ],
+      "responses": [
+        "Sige po, chat na lang po kayo kapag may concern kayo."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Payment_received123004123"
+      ],
+      "responses": [
+        "|#|payment_received"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kulang",
+      "patterns": [
+        "kulang po pera ko"
+      ],
+      "responses": [
+        "I understand po, kahit magkano na lang po hehe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "product_details",
+      "patterns": [
+        "Pano po?",
+        "interested po sa installer",
+        "anu po ba inclusion",
+        "avel poba",
+        "avail pa po ba promo",
+        "interested!",
+        "hi is your offer still available",
+        "hello how much po for adobe photoshop",
+        "good morning can i get the details po about this offer",
+        "good evening po available pa po ba to",
+        "available pa po p50 promo",
+        "avail po ako",
+        "bibili po ako ano ba yan walang tao",
+        "available papo",
+        "ano po ba yung available",
+        "anu2x softwares",
+        "apk ba ito lahat no viruses can i see some of your reviews",
+        "Paano po?",
+        "are the apps available",
+        "ano po inclusion",
+        "ano po covered na installer ng 50 00",
+        "good morning open po ba kayo",
+        "Can I learn more about your business?",
+        "Can you tell me more about your ad?",
+        "Product Details?",
+        "I'm interested in this post ",
+        "Ano po yung mga installers?",
+        "Ano ano po yong mga installer niyo?",
+        "interested",
+        "interesado po ako",
+        "Can you tell me more about your ad?"
+      ],
+      "responses": [
+        "Fully activated and updated softwares for 50 PESOS only. File first before payment po tayo. No expiration, no hidden charges.",
+		"Get fully activated and updated software for just 50 pesos! We file first before payment, and there are no hidden charges or expiration dates.",
+		"Looking for affordable, fully activated software? Look no further than our 50 peso offer! We file first before payment, and you won't encounter any hidden charges or expiration dates.",
+		"Save big on software with our 50 peso offer! Our fully activated and updated programs have no expiration dates or hidden charges, and we file first before payment.",
+		"Need reliable, fully activated software without breaking the bank? Our 50 peso offer is just what you need! With no hidden charges or expiration dates and file first before payment.",
+		"Say goodbye to expensive software! Our fully activated and updated programs are just 50 pesos and come with no hidden charges or expiration dates. Plus, we file first before payment for your peace of mind."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mac_os",
+      "patterns": [
+        "pwede po ba sa mac",
+        "for mac",
+        "Mack book po Sana !",
+        "good morning meron po kayo pang macbook na ms office",
+        "adobe products for mac",
+        "Meron po sa Mack book eto ?",
+        "hello hm installer photoshop for mac",
+        "Good morning meron po kayo pang macbook na ms office?",
+        "meron kayo pang mac os?",
+        "may photoshop for mac?",
+        "is this available for mac?",
+        "mac os po",
+        "wala po for mac?",
+        "for mac po sana",
+        "do you have for mac?",
+        "do you have apps for mac?",
+        "available for mack book?",
+        "avail for macbook?",
+        "pwede po ba yan sa chromebook?",
+        "available po ba yung ms sa huawei matepad 11",
+        "chromebook po pwede?",
+        "goods po to sa windows 11",
+        "pwede po ba yan sa ipad?",
+        "pwede po ba yan sa android?",
+        "for android pwede?",
+        "Saan poba yong pwede pang tablet mobile doon",
+        "for ipad pwede?",
+        "pede po yan sa cellphone?",
+        "pwede ba yan sa Mac? or for Windows lang siya?"
+      ],
+      "responses": [
+        "For Windows 10 & 11 Desktop/Laptop only. Thank you!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "failed_download",
+      "patterns": [
+        "forbidden download",
+        "ayaw naman po",
+        "tinry ko po download",
+        "bakit hindi ko po ma download",
+        "lagi po siya nagsstop saying na forbidden daw",
+        "how to fix forbidden download",
+        "d ko talaga ma download",
+        "I can't download",
+        "di ma-download",
+        "can't download",
+        "nakalagay po kase quota exceded eh",
+        "download quota exceeded po",
+        "hello ask ko lang kung may ibang way pa para madownload ung autocad 2023 download quota exceeded for this file na kase siya",
+        "D ako maka download",
+        "hindi ako maka download",
+        "hi nakalagay po download quota exceeded raw po",
+        "download quota exceeded",
+        "download error po",
+        "cant download daw exceeded quota",
+        "stop download",
+        "nag stop ung download",
+        "sir ayaw ma download young link",
+        "hindi ko sya madownload e",
+        "download quota exceeded for this file, so you can't download it at this time",
+        "Di pa rin madownload",
+        "panu po dinadownload to",
+        "panu po gagawin para madownload at install?",
+        "Ayaw nya po magtuloy download"
+      ],
+      "responses": [
+        "Follow this fix for exceeded quota: https://youtu.be/n7isLLcwOhs.",
+		"Check this fix: https://youtu.be/n7isLLcwOhs.",
+		"Fix it here: https://youtu.be/n7isLLcwOhs.",
+		"How to fix: https://youtu.be/n7isLLcwOhs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ms_office",
+      "patterns": [
+        "Office 365",
+        "magkano po office 365?",
+        "office 365 available?",
+        "magkano po ang office 365",
+        "available papo?",
+        "pwede po ba yung microsoft 365?",
+        "Microsoft 365 po sana",
+        "Meron pong installer ng Office 365?",
+        "ang ms office 2021 po complete na lahat excel powerpoint outlook and word",
+        "ask ko po kung may excel at power pojnt",
+        "Wala po kayong microsoft 365?",
+        "ms office 365 pro plus?",
+        "Hi po! available po ms office?",
+        "meron kayo pang mag os?",
+        "anong version po ng microsoft ang puwede",
+        "available po MS word 2021?",
+        "available po ang microsoft word",
+        "available po ang ms office",
+        "meron po ba kayong microsoft office?",
+        "Hm ms office?",
+        "pa avail po ng ms office",
+        "available po microsoft",
+        "ms office available?",
+        "hm po sa ms office",
+        "ano ang best na microsoft office niyo para window10 ko",
+        "anong version po ng ms office meron po kayo",
+        "Microsoft office po sana",
+        "do you have ms office installer",
+        "Ms office 2019 pro plus",
+        "May Microsoft office po ba",
+        "I mean sa apps po ng excel and word ko po need",
+        "do you have ms office installer offline installer",
+        "ano po yung ms word nito",
+        "ms office po.",
+        "How much po yung Office?"
+      ],
+      "responses": [
+        "Yes available po. Office Pro Plus 2013, 2016, 2019, 2021 po yung available, same lang po yun sa Office 365. Lahat po ng microsoft office softwares andun na po like Excel, Word, Powerpoint, Outlook, OneNote, OneDrive, Teams, etc.. Note: Office Pro po ang available, same lang po lahat ng functions nun sa office 365."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "how_to_avail",
+      "patterns": [
+        "Mag-avail po ako",
+        "MERON PO BA?",
+        "mag avail po ako",
+        "how to access po",
+        "how to avail po sa installers",
+        "how to avail po",
+        "how to avai",
+        "hello mag avail akoo",
+        "how to avail the microsoft subscription",
+        "bibili sana ako",
+        "how to avail microsoft office and adobe",
+        "how to avail po",
+        "how to avail microsoft office",
+        "Paano po ito?",
+        "di ko po mahanap ung adobe after effects",
+        "cge po mgavail po aq pano po process",
+        "Paano po ito?",
+        "can i avail",
+        "avail ako",
+        "avail po ako sir",
+        "avail po ako ng master collection",
+        "how to avail sir",
+        "mag-avail po ako sir.",
+        "avail po ko sir badly needed",
+        "avail?",
+        "how po?",
+        "paano po?",
+        "how?",
+        "pa avail po",
+        "Masesend po ba agad pag nabayaran na",
+        "get ko na po",
+        "paano po mag babayad?",
+        "coins ph po ng gamit ko yo make the payment",
+        "at gcash po pala payment method",
+        "saan po mag babayad?",
+        "how to pay",
+        "ano po gcash nio po",
+        "Ano po gcash nyo?",
+        "hows the process po thru gdrive",
+        "anu pong name sa gcash para sure",
+        "ano name ng gcash ngo",
+        "ano po paypal nyo?",
+        "how to pay po",
+        "ano po paymaya nyo?",
+        "pede po gcash?",
+        "pede po paymaya?",
+        "pede po paypal?",
+        "ano gcash number mo",
+        "can i pay using gcash?",
+        "can i pay using paymaya?",
+        "can u pay using paypal?",
+        "Pasend po ng number niyo ta mabayaran ko po",
+        "ano po number nyo para makapag bayad po",
+        "please send your number so i can pay",
+        "Paano po yung mode of payment?",
+        "nag-aaccept po kayo ng paypal?",
+        "ano gcash nyo",
+        "gcash lang po",
+        "gcash po mop ko",
+        "gcash payment",
+        "gcash po bayad",
+        "gcash po ninyo dun po ako mag bayad",
+        "gcash po",
+        "can i pay through load here",
+        "nag-aaccept po kayo ng gcash?",
+        "nag-aaccept po kayo ng paymaya?",
+        "pabili po ako",
+        "where to pay",
+        "mode of payment",
+        "saan po ang payment",
+        "where to payment",
+        "Kukuha po sana ako"
+      ],
+      "responses": [
+        "pa-reply na lang po dito sa chat ng 'YES' kung mag, avail po kayo. Ibibigay po namin kaagad yung files para ma-check niyo bago kayo mag bayad.",
+		"reply lang po kayo dito ng 'YES' kung mag avail po kayo mam/sir. file first po yan kaya maccheck niyo po kaagad yung file bago niyo po kami bayadan",
+		"reply po kayo sa chat ng 'YES' para maibigay na po namin sa inyo agad yung access bago kayo mag bayad",
+		"magreply lang po kayo ng 'YES' then ibibigay na po namin agad yung files para macheck niyo na po bago kayo mag bayad."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mura",
+      "patterns": [
+        "ang mura naman po",
+        "mura po ah",
+        "wow this is so cheap",
+        "ang cheap po",
+        "worth it po"
+      ],
+      "responses": [
+        "Yes po! Pang masa tayo hehe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "virus",
+      "patterns": [
+        "virus free po ba yan",
+        "Salamat sa virus",
+        "safe po ba?",
+        "at sa hacking",
+        "wala po bang virus yan sir?",
+        "no virus po ba?",
+        "wala po bang virus yan mam/sir?",
+        "no virus?",
+        "hindi naman po ba sya virus",
+        "safe po ba sa virus yan?",
+        "legit po ba yan",
+        "virus free naman ito di ba?"
+      ],
+      "responses": [
+        "100% tried and tested po lahat ng softwares. wala pong virus yan lahat. May tutorial video din po yan na kasama."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "expiry",
+      "patterns": [
+        "lifetime po ba yan?",
+        "hindi pala lifetime",
+        "lifetime access",
+        "lifetime access po ba ito para sa susunod nalang ko install yung iba",
+        "lifetime access ba",
+        "lifetime nato",
+        "lifetime po ba yung ms office",
+        "lifetime po ba ito",
+        "lifetime access po ito",
+        "lifetime na po ba or installer lang",
+        "lifetime na po ba yung link para yung link nalang ilagay ko sa drive ko",
+        "lifetime na po ba",
+        "lifetime access napo to no",
+        "hindi naman po mawawala yung link na yan thank you",
+        "free na po ba lifetime or trial days lang",
+        "good afternoon ask ko lang if lifetime yung office 2021",
+        "hanggang kailan po ang promo nio",
+        "How many months po mag stay yong duc sa gmail ko?",
+        "Kahit ilang unit sir",
+        "lifetime po sana",
+        "akala ko ba lifetime",
+        "what do u mean po kapag nakapag bayad na hindi na po magbabayad ulit?",
+        "No limit sa access",
+        "forever po ba yan?",
+        "may expiry po ba yung license?",
+        "nag eexpire po ba yan?",
+        "unlimited po ba to?",
+        "isang beses lang po ba pwede idownload yung installer?",
+        "Hindi ba mag eexpire yung link?",
+        "lifetime subscription po",
+        "lifetime po sana",
+        "may expiration po ba?",
+        "lifetime subscription",
+        "may expiration po ba or lifetime?",
+        "wala naman pong expiration noh?",
+        "baka my expiration po?",
+        "Paano po kung after ilang months magkaroon ng problem? Like sa account o baka biglang mag expire something like that po?",
+        "di ba mag expire ung link?",
+        "Refundable po ba ito?",
+        "may refund po ba?"
+      ],
+      "responses": [
+        "Lifetime access po tayo pati po ang softwares natin ay lifetime din po ang licenses. You can always message us po for update ng links. Again wala pong bayad ulit once na nakapag bayad na kayo before."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anti-virus",
+      "patterns": [
+        "may anti virus po ba kayo?",
+        "anong anti virus po ang available?",
+        "available po ba yung antivirus",
+        "avast premium",
+        "anti virus meron po?",
+        "no virus?"
+      ],
+      "responses": [
+        "Yes. Avast Anti-Virus 2022 po yung available."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "installer_list",
+      "patterns": [
+        "pwede makita yung list",
+        "ano mga software nyo",
+        "ano ano po yung installers",
+        "ano po software meron kayo for maintenance monitoring and asset management",
+        "ano po yung list",
+        "patingin po nung list",
+        "can i see the list of installers",
+        "list of installers",
+        "ano ano po mga available na softwares?",
+        "ano po mga available na installers?",
+        "ano po mga installers nyo jan?",
+        "wala po bang",
+        "meron po bang",
+        "do you have",
+        "ano ano po yong mga installer niyo?"
+      ],
+      "responses": [
+        "Eto po yung full updated Installer List: https://docs.google.com/spreadsheets/d/1axgsqw5094QSyvTYH7WuTFFNv0NzQzdmYbxlbdwcaWg/edit?usp=sharing"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait",
+      "patterns": [
+        "wait lang po",
+        "sandali lang po",
+        "mag chat na lang po ako ulit",
+        "mamaya na lang po",
+        "maya na lang po",
+        "chat po ako pag uwi",
+        "cashin mun ako sa gcash 13php n lang yung laman send ko amam after work",
+        "check ko po maya",
+        "bukas nalang ako bibili mam/sir",
+        "wait ko na lang po bukas",
+        "wait ko na lang po after 24 hours",
+        "wait lang po",
+        "ok po wait lang po.",
+        "wait po",
+        "check ko po wait",
+        "pa wait po sir.",
+        "teka lang po",
+        "maya na lang po",
+        "later na lang po",
+        "w8 lang po",
+        "sglit lang po",
+        "w8 po",
+        "wit lang"
+      ],
+      "responses": [
+        "Chat lang po kayo anytime."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Photoshop 2022",
+      "patterns": [
+        "may Adobe Photoshop 2022 po ba?",
+        "available po ba yung Adobe Photoshop 2022?",
+        "meron po bang Adobe Photoshop 2022?",
+        "good morning may available adobe photoshop",
+        "meron po kayong Adobe Photoshop 2022?",
+        "is Adobe Photoshop 2022 available?",
+        "may PS po kayo?",
+        "may PShop po kayo?",
+        "available po ba ung ps",
+        "available po adobe photoshop",
+        "pa avail po ng photoshop",
+        "pa avail po ng ps"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Photoshop 2022"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Master Collection 2022",
+      "patterns": [
+        "may Adobe Master Collection 2022 po ba?",
+        "available po ba yung Adobe Master Collection 2022?",
+        "meron po bang Adobe Master Collection 2022?",
+        "meron po kayong Adobe Master Collection 2022?",
+        "is Adobe Master Collection 2022 available?",
+        "hello po may video editor kayo?",
+        "Video editor",
+        "pang edit ng video",
+        "adoble bundle po",
+        "hello po may video editor kayo?",
+        "may pdf editor po?",
+        "ano po video editing tool?",
+        "do you have pdf editor?",
+        "may adobe ba kayo?",
+        "avail ba yung adobe",
+        "meron pong Adobe Acrobat Pro DC",
+        "meron pong Adobe After Effects",
+        "meron pong Adobe Animate",
+        "meron pong Adobe Audition",
+        "meron pong Adobe Bridge",
+        "meron pong Adobe Character Animator",
+        "meron pong Adobe Dimension",
+        "meron pong Adobe Dreamweaver",
+        "meron pong Adobe Fresco",
+        "meron pong Adobe Illustrator",
+        "meron pong Adobe InCopy",
+        "meron pong Adobe InDesign",
+        "meron pong Adobe Lightroom Classic",
+        "meron pong Adobe Media Encoder",
+        "meron pong Adobe Photoshop",
+        "adobe photoshop",
+        "adobe photoshop 2022 available ba",
+        "meron pong Adobe Premiere Pro",
+        "meron pong Adobe Premiere Rush",
+        "meron pong Adobe Substance 3D Designer",
+        "adobe substance 3d stager",
+        "meron pong Adobe Substance 3D Painter",
+        "meron pong Adobe Substance 3D Sampler",
+        "meron pong Adobe Substance 3D Stager",
+        "adobe photoshop po kasi kelangan ko eh",
+        "meron pong pang photography",
+        "meron pong pang photobooth"
+      ],
+      "responses": [
+        "|#|adobe_master_collection"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "64bit",
+      "patterns": [
+        "pano po malalaman yung 64-bit?",
+        "pano po malalaman kapag x64",
+        "saan makikita yung 64bit?"
+      ],
+      "responses": [
+        "Click niyo lang po sa keyboard niyo ito, Win+R tapos type niyo po msinfo32",
+        "Click Windows Logo + R, type 'msinfo32'"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "windows_7_compatibility",
+      "patterns": [
+        "pwede po ba yan sa windows 7",
+        "di po compatible",
+        "pwede po ba sa win7?",
+        "Gagana po ba yan sa windows 7?",
+        "for windows 7 po pwede?",
+        "for win7 pwede po?",
+        "compatible po ba yan for windows 7?",
+        "is this for windows 7?"
+      ],
+      "responses": [
+        "For Windows 10 & 11 x64 lang po yung mga installers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "windows_10_11_compatibility",
+      "patterns": [
+        "pwede po ba yan sa windows 11",
+        "currently po naka windows 7 po ito",
+        "goods po ba to for windows 10",
+        "pang windows 10 po ba yan?",
+        "good po ba to for windows 11?",
+        "compatible po ba for windows 10?"
+      ],
+      "responses": [
+        "For Windows 10 & 11 x64 lang po yung mga installers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "legit",
+      "patterns": [
+        "legit po ba ito?",
+        "is this legit?",
+        "legit po ba yung page niyo?",
+        "paano ko po malalaman kung legit yung page?",
+        "Legit?"
+      ],
+      "responses": [
+        "Check niyo na lang din po sir/ma'am sa page ko yung naka-pinned post. nandun po lahat ng customers' feedback. Thank you!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bukas",
+      "patterns": [
+        "pwede po ba na bukas ko na lang bayadan?",
+        "pwede po tom na lang, sarado na po kasi",
+        "okay lang po ba kung bukas na lang bayadan?",
+        "cge bayaran k n",
+        "cge po check ko po muna before po aq mgbayad",
+        "okay lang po ba sir kung tom na lang yung bayad?",
+        "pwede po ba na tom yung bayad?",
+        "cge po mag send nlg po ako ng payment mamaya po",
+        "pede po tomorrow na lang yung payment?",
+        "can I pay you tomorrow?",
+        "cge po maya po ako mag avail",
+        "ano po yung testing muna bago mag bayad",
+        "install ko po muna sir",
+        "babayad muna ako",
+        "babayad po ako agad",
+        "pede ba bukas yung payment?"
+      ],
+      "responses": [
+        "Yes po pwede naman, pa-send na lang po nung screenshot ng kapag okay na po. Salamat!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "check",
+      "patterns": [
+        "check ko muna po kung gumagana",
+        "send ko po yung payment kapag nainstall na",
+        "check ko lang po muna kung mainstall",
+        "file first po before pay",
+        "check ko muna po tapos bayad ako after",
+        "again install first before payment",
+        "file first po noh",
+        "100 gumagana thank you",
+        "check ko muna po sir."
+      ],
+      "responses": [
+        "No problem! Install first before payment. 100% gumagana po yan lahat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "crack",
+      "patterns": [
+        "crack po ba yung software?",
+        "Cracked po?",
+        "crack po to lahat sir",
+        "activated po ba yung mga installers",
+        "full version with crack po",
+        "1yr lang po limit po diba nyan",
+        "activated na po to right?",
+        "licensed na po ito diba?",
+        "is this activated?",
+        "is this licensed?"
+      ],
+      "responses": [
+        "Yes. all softwares are cracked/activated po. meaning po ng cracked, hindi na po need magbayad monthly or yearly. one time payment lang po yan, lifetime use na."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "games",
+      "patterns": [
+        "may games po ba?",
+        "may nba2k po?",
+        "may mga laro din po ba kayo?",
+        "ahh sir meron din po ba kayong offline games katulad nang call of duty",
+        "do you have games?"
+      ],
+      "responses": [
+        "Ay wala po tayong games."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "walang_laman",
+      "patterns": [
+        "wala pong laman yung file?",
+        "wala pong laman yung folder",
+        "empty po yung folder",
+        "folder empty"
+      ],
+      "responses": [
+        "Hindi niyo po na-download pa yung installer kaya wala pong laman yung folder."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "load",
+      "patterns": [
+        "pwede po ba na load po yung payment?",
+        "load payment pwede?",
+        "tumatanggap po ba kayo ng load?",
+        "pwede po load bayad?",
+        "pwede po ba na load yung ibayad?"
+      ],
+      "responses": [
+        "GCash/Maya/Paypal lang po ang tinatanggap ko na payment. Thank you"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mga_wala",
+      "patterns": [
+        "may adobe cc po kayo?",
+        "do you have adobe cc?",
+        "do have malwarebytes?",
+        "meron kayo malwarebytes?",
+        "is adobe cloud creative available?"
+      ],
+      "responses": [
+        "Sorry po wala po kami nun."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Photoshop",
+      "patterns": [
+        "may Adobe Photoshop po ba?",
+        "available po ba yung Adobe Photoshop?",
+        "meron po bang Adobe Photoshop?",
+        "meron po kayong Adobe Photoshop?",
+        "is Adobe Photoshop available?",
+        "avail po ba yung Adobe Photoshop?",
+        "pa avail po ng Adobe Photoshop"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Photoshop for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Illustrator",
+      "patterns": [
+        "may Adobe Illustrator po ba?",
+        "available po ba yung Adobe Illustrator?",
+        "meron po bang Adobe Illustrator?",
+        "meron po kayong Adobe Illustrator?",
+        "is Adobe Illustrator available?",
+        "available po ba sa inyo yung illustrator",
+        "adobe illustrator cc 2017 magkano",
+        "avail po ba yung Adobe Illustrator?",
+        "pa avail po ng Adobe Illustrator"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Illustrator for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Master Collection",
+      "patterns": [
+        "may Adobe Master Collection po ba?",
+        "available po ba yung Adobe Master Collection?",
+        "meron po bang Adobe Master Collection?",
+        "meron po kayong Adobe Master Collection?",
+        "is Adobe Master Collection available?",
+        "avail po ba yung Adobe Master Collection?",
+        "pa avail po ng Adobe Master Collection"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Master Collection for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Premiere Pro",
+      "patterns": [
+        "may Adobe Premiere Pro po ba?",
+        "available po ba yung Adobe Premiere Pro?",
+        "meron po bang Adobe Premiere Pro?",
+        "meron po kayong Adobe Premiere Pro?",
+        "adobe premiere pro",
+        "is Adobe Premiere Pro available?",
+        "avail po ba yung Adobe Premiere Pro?",
+        "pa avail po ng Adobe Premiere Pro"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Premiere Pro for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Photoshop",
+      "patterns": [
+        "may Adobe Photoshop po ba?",
+        "available po ba yung Adobe Photoshop?",
+        "meron po bang Adobe Photoshop?",
+        "meron po kayong Adobe Photoshop?",
+        "is Adobe Photoshop available?",
+        "avail po ba yung Adobe Photoshop?",
+        "pa avail po ng Adobe Photoshop"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Photoshop for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "AutoCAD",
+      "patterns": [
+        "may AutoCAD po ba?",
+        "do you have autocad 2021",
+        "anong version po nung autocad",
+        "available po ba yung AutoCAD?",
+        "meron po bang AutoCAD?",
+        "meron po kayong AutoCAD?",
+        "is AutoCAD available?",
+        "autocad meron",
+        "hello avail po ako ng autocad 2023",
+        "avail po ba yung AutoCAD?",
+        "good evening available po ba autocad",
+        "pa avail po ng AutoCAD"
+      ],
+      "responses": [
+        "Yes po available po ang AutoCAD for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Autodesk 3ds Max",
+      "patterns": [
+        "may Autodesk 3ds Max po ba?",
+        "available po ba yung Autodesk 3ds Max?",
+        "meron po bang Autodesk 3ds Max?",
+        "meron po kayong Autodesk 3ds Max?",
+        "is Autodesk 3ds Max available?",
+        "avail po ba yung Autodesk 3ds Max?",
+        "pa avail po ng Autodesk 3ds Max"
+      ],
+      "responses": [
+        "Yes po available po ang Autodesk 3ds Max for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Autodesk AutoCAD",
+      "patterns": [
+        "may Autodesk AutoCAD po ba?",
+        "available po autodesk",
+        "available po ba yung Autodesk AutoCAD?",
+        "meron po bang Autodesk AutoCAD?",
+        "meron po kayong Autodesk AutoCAD?",
+        "is Autodesk AutoCAD available?",
+        "avail po ba yung Autodesk AutoCAD?",
+        "pa avail po ng Autodesk AutoCAD"
+      ],
+      "responses": [
+        "Yes po available po ang Autodesk AutoCAD for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Autodesk Fabrication",
+      "patterns": [
+        "may Autodesk Fabrication po ba?",
+        "available po ba yung Autodesk Fabrication?",
+        "meron po bang Autodesk Fabrication?",
+        "meron po kayong Autodesk Fabrication?",
+        "is Autodesk Fabrication available?",
+        "avail po ba yung Autodesk Fabrication?",
+        "pa avail po ng Autodesk Fabrication"
+      ],
+      "responses": [
+        "Yes po available po ang Autodesk Fabrication for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Avast Premium",
+      "patterns": [
+        "may Avast Premium po ba?",
+        "available po ba yung Avast Premium?",
+        "meron po bang Avast Premium?",
+        "meron po kayong Avast Premium?",
+        "is Avast Premium available?",
+        "avail po ba yung Avast Premium?",
+        "pa avail po ng Avast Premium"
+      ],
+      "responses": [
+        "Yes po available po ang Avast Premium for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Civil 3D",
+      "patterns": [
+        "may Civil 3D po ba?",
+        "available po ba yung Civil 3D?",
+        "meron po bang Civil 3D?",
+        "meron po kayong Civil 3D?",
+        "is Civil 3D available?",
+        "avail po ba yung Civil 3D?",
+        "pa avail po ng Civil 3D"
+      ],
+      "responses": [
+        "Yes po available po ang Civil 3D for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Driver Easy Professional",
+      "patterns": [
+        "may Driver Easy Professional po ba?",
+        "available po ba yung Driver Easy Professional?",
+        "meron po bang Driver Easy Professional?",
+        "meron po kayong Driver Easy Professional?",
+        "is Driver Easy Professional available?",
+        "avail po ba yung Driver Easy Professional?",
+        "pa avail po ng Driver Easy Professional"
+      ],
+      "responses": [
+        "Yes po available po ang Driver Easy Professional for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Microsoft Project",
+      "patterns": [
+        "may Microsoft Project po ba?",
+        "available po ba yung Microsoft Project?",
+        "meron po bang Microsoft Project?",
+        "meron po kayong Microsoft Project?",
+        "is Microsoft Project available?",
+        "avail po ba yung Microsoft Project?",
+        "pa avail po ng Microsoft Project"
+      ],
+      "responses": [
+        "Yes po available po ang Microsoft Project for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Navisworks Manage",
+      "patterns": [
+        "may Navisworks Manage po ba?",
+        "available po ba yung Navisworks Manage?",
+        "meron po bang Navisworks Manage?",
+        "meron po kayong Navisworks Manage?",
+        "is Navisworks Manage available?",
+        "avail po ba yung Navisworks Manage?",
+        "pa avail po ng Navisworks Manage"
+      ],
+      "responses": [
+        "Yes po available po ang Navisworks Manage for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nitro Pro",
+      "patterns": [
+        "may Nitro Pro po ba?",
+        "available po ba yung Nitro Pro?",
+        "meron po bang Nitro Pro?",
+        "meron po kayong Nitro Pro?",
+        "is Nitro Pro available?",
+        "avail po ba yung Nitro Pro?",
+        "pa avail po ng Nitro Pro"
+      ],
+      "responses": [
+        "Yes po available po ang Nitro Pro for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Outbyte Driver",
+      "patterns": [
+        "may Outbyte Driver po ba?",
+        "available po ba yung Outbyte Driver?",
+        "meron po bang Outbyte Driver?",
+        "meron po kayong Outbyte Driver?",
+        "is Outbyte Driver available?",
+        "avail po ba yung Outbyte Driver?",
+        "pa avail po ng Outbyte Driver"
+      ],
+      "responses": [
+        "Yes po available po ang Outbyte Driver for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pop Art Studio",
+      "patterns": [
+        "may Pop Art Studio po ba?",
+        "available po ba yung Pop Art Studio?",
+        "meron po bang Pop Art Studio?",
+        "meron po kayong Pop Art Studio?",
+        "is Pop Art Studio available?",
+        "avail po ba yung Pop Art Studio?",
+        "pa avail po ng Pop Art Studio"
+      ],
+      "responses": [
+        "Yes po available po ang Pop Art Studio for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Revit",
+      "patterns": [
+        "may Revit po ba?",
+        "available po ba yung Revit?",
+        "do you have revit",
+        "anong version po ng revit ang available",
+        "meron po bang Revit?",
+        "meron po kayong Revit?",
+        "is Revit available?",
+        "avail po ba yung Revit?",
+        "pa avail po ng Revit"
+      ],
+      "responses": [
+        "Yes po available po ang Revit for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "SketchUp Pro",
+      "patterns": [
+        "may SketchUp Pro po ba?",
+        "available po ba yung SketchUp Pro?",
+        "meron po bang SketchUp Pro?",
+        "meron po kayong SketchUp Pro?",
+        "is SketchUp Pro available?",
+        "avail po ba yung SketchUp Pro?",
+        "pa avail po ng SketchUp Pro"
+      ],
+      "responses": [
+        "Yes po available po ang SketchUp Pro for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Windows 10",
+      "patterns": [
+        "may Windows 10 po ba?",
+        "available po ba yung Windows 10?",
+        "meron po bang Windows 10?",
+        "meron po kayong Windows 10?",
+        "is Windows 10 available?",
+        "avail po ba yung Windows 10?",
+        "pa avail po ng Windows 10"
+      ],
+      "responses": [
+        "Yes po available po ang Windows 10 for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Windows 11",
+      "patterns": [
+        "may Windows 11 po ba?",
+        "available po ba yung Windows 11?",
+        "meron po bang Windows 11?",
+        "meron po kayong Windows 11?",
+        "is Windows 11 available?",
+        "avail po ba yung Windows 11?",
+        "pa avail po ng Windows 11"
+      ],
+      "responses": [
+        "Yes po available po ang Windows 11 for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Windows 7",
+      "patterns": [
+        "may Windows 7 po ba?",
+        "available po ba yung Windows 7?",
+        "meron po bang Windows 7?",
+        "meron po kayong Windows 7?",
+        "is Windows 7 available?",
+        "avail po ba yung Windows 7?",
+        "pa avail po ng Windows 7"
+      ],
+      "responses": [
+        "Yes po available po ang Windows 7 for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe Lightroom Classic",
+      "patterns": [
+        "may Adobe Lightroom Classic po ba?",
+        "available po ba yung Adobe Lightroom Classic?",
+        "meron po bang Adobe Lightroom Classic?",
+        "meron po kayong Adobe Lightroom Classic?",
+        "is Adobe Lightroom Classic available?",
+        "avail po ba yung Adobe Lightroom Classic?",
+        "pa avail po ng Adobe Lightroom Classic"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe Lightroom Classic for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe AIR",
+      "patterns": [
+        "may Adobe AIR po ba?",
+        "available po ba yung Adobe AIR?",
+        "meron po bang Adobe AIR?",
+        "meron po kayong Adobe AIR?",
+        "is Adobe AIR available?",
+        "avail po ba yung Adobe AIR?",
+        "pa avail po ng Adobe AIR"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe AIR for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Internet Download",
+      "patterns": [
+        "may Internet Download po ba?",
+        "available po ba yung Internet Download?",
+        "meron po bang Internet Download?",
+        "meron po kayong Internet Download?",
+        "is Internet Download available?",
+        "avail po ba yung Internet Download?",
+        "pa avail po ng Internet Download"
+      ],
+      "responses": [
+        "Yes po available po ang Internet Download for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Adobe InDesign",
+      "patterns": [
+        "may Adobe InDesign po ba?",
+        "available po ba yung Adobe InDesign?",
+        "meron po bang Adobe InDesign?",
+        "meron po kayong Adobe InDesign?",
+        "is Adobe InDesign available?",
+        "avail po ba yung Adobe InDesign?",
+        "pa avail po ng Adobe InDesign"
+      ],
+      "responses": [
+        "Yes po available po ang Adobe InDesign for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot",
+      "patterns": [
+        "am i talking to a bot",
+        "hays chat bot",
+        "bot yata tong kausap ko",
+        "ehh bot pala pero ng ddl na ko anu po name sa gcash",
+        "ay nu b yan ulit ulit automated po ito",
+        "can i talk to real person please",
+        "ai na naman yung kausap ko?",
+        "automated chat",
+        "ano po ba ito naglolokohan po paulit ulit po",
+        "bot yata yung kausap ko",
+        "ai yata yung kausap ko ngayon",
+        "bot ka ba?",
+        "ai kausap ko dito",
+        "ai na naman kausap ko ngayon"
+      ],
+      "responses": [
+        "Hindi po ako bot/ai. paki-tanong na lang po ng maayos yung inquiry and concerns niyo. Salamat po!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "video",
+      "patterns": [
+        "ayaw ma open ng video",
+        "bat di po maview yung installation guide",
+        "ayaw ma play nung video",
+        "hindi ma-play yung video",
+        "di po maplay yung mga vids",
+        "di ko po maview yung tutorial",
+        "bat wla po yung video",
+        "ayaw gumana nung video",
+        "yung video ayaw ma play"
+      ],
+      "responses": [
+        "paki-download po yung video guide para mapanood at masundan niyo po ng maayos. salamat!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "guide",
+      "patterns": [
+        "ayaw namn po gumana ng microsoft",
+        "hindi po gumagana",
+        "ayaw po eh",
+        "di kasi maopen",
+        "bat ayaw po",
+        "di po kaya mag install",
+        "empty files",
+        "diko ma download yung download manager",
+        "empty files activator",
+        "di ko ma open yung word",
+        "di po naoopen mga file",
+        "error po",
+        "good eve po hindi ko madownload yung office pro plus 2021",
+        "hindi po ma install",
+        "error po yung autocad",
+        "bakit ganun ayaw magamit",
+        "hello po bat 1 month trial lang po sa sketchup",
+        "error po sir sa paginstall",
+        "hindi na nga nagagamit ang microsoft nyo",
+        "ayaw naman gumana"
+      ],
+      "responses": [
+        "100% working po yan. kung hindi nyo po napagana or empty yung files after ng extraction, meaning hindi nyo po nasundan yung installation guide. sundan nyo po yung installation guide before niyo po iinstall yung mga files. salamat po!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "already_availed",
+      "patterns": [
+        "nawala po yung files sa google drive",
+        "hinde na nag response yung google drive link ninyo po",
+        "hello po ask ko lang bakit po nawala access ko sa files po",
+        "hello bakit dko po madownload lahat ng files po access denied",
+        "hindi ko po madownload sa google drive yung mga installer",
+        "diko na siya makita sa gdrive po",
+        "hi i cannot access the link ive already purchased last time",
+        "good morning po nawala po ulit ang link salamat",
+        "hindi na po ba ibabalik ang drive link",
+        "hindi na kasi available yung link",
+        "hello po hindi po atah mabuksan yung sa gdrive thank you",
+        "error po yung link",
+        "hello po makaka access po ba ako sa link anytime mahina kasi net ngayun di ko ma download yung iba",
+        "hello po hanggang kelan ko po ma aacces ung link nawalan po akasi ako ng wifi signal",
+        "good day pwede makahingi bagong link",
+        "hindi na po bakit hindi na po accessibe yung file",
+        "hello po maam nawala po access ko po pwede pa po ba ako makahingi salamat po",
+        "good evening po i avail po but hindi ko na po ma access yung drive po na sinend nyo po",
+        "nag avail na po ako noon pero wala na po yung files",
+        "nawala po yung files sa google drive",
+        "hello po bakit di kona makita yung mga instaler",
+        "good noon sirbakit po hindi ko na ma access ung mga files",
+        "bat na remove yung access ko sa gdrive nawala na naman po",
+        "bat ndi ko na po ma access ung folder nyo na sinend",
+        "wala pong access sa folder"
+      ],
+      "responses": [
+        "Kung nag-avail na po kayo noon tapos nawala po yung access niyo sa drive, ito po yung panibagong link https://drive.google.com/drive/u/3/folders/1RJLNi2ID1XTSV6gsesXpCuz77tuv_dsS"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Lumion Pro",
+      "patterns": [
+        "may Lumion Pro po ba?",
+        "available po ba yung Lumion Pro?",
+        "meron po bang Lumion Pro?",
+        "meron po kayong Lumion Pro?",
+        "is Lumion Pro available?",
+        "avail po ba yung Lumion Pro?",
+        "pa avail po ng Lumion Pro"
+      ],
+      "responses": [
+        "Yes po available po ang Lumion Pro for Windows 10 & 11 only."
+      ],
+      "context_set": ""
+    }
+  ]
+}
